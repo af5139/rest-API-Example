@@ -1,0 +1,19 @@
+server:
+  port: 8088
+
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        ddl-auto: none
+  messages:
+    basename: messages
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+spring.datasource:
+  url:jdbc:h2:tcp://localhost/~/test
+
+

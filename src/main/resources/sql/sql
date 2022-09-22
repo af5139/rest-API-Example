@@ -1,0 +1,5 @@
+create table "user" ("id" integer not null, "join_date" timestamp, "name" varchar(255), "password" varchar(255), "ssn" varchar(255), primary key ("id"))
+
+insert into "user" values(1, now(), 'User1', 'test1', '701010-1187888');
+insert into "user" values(2, now(), 'User2', 'test2', '801010-1187888');
+insert into "user" values(3, now(), 'User3', 'test3', '901010-1187888');
