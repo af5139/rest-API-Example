@@ -39,6 +39,6 @@ public class User {
     @OneToMany(mappedBy = "user")
     private List<Post> posts;
 
-    public User(int i, String kenneth, Date date, String pass1, String s) {
+    public User(int id, String kenneth, Date date, String pass1, String s) {
     }
 }
